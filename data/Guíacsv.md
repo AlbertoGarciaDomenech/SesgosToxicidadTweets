@@ -42,3 +42,4 @@ Estos archivos csv se generaron modificando los tweets proporcionados por Newtra
     very_toxic_noaccent: toxicidad “very toxic” del tweet modificado sin tildes
     most_toxic_grammar: ortografía (con tildes/sin tildes) con la que el tweet tiene más toxicidad “toxic”
     most_verytoxic_grammar: ortografía (con tildes/sin tildes) con la que el tweet tiene más toxicidad “very toxic”
+## tweets_contradictorios.csv
