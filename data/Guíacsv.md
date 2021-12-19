@@ -17,6 +17,20 @@ Estos archivos csv se generaron modificando los tweets proporcionados por Newtra
 
 ## tweet_mods_politicians.csv
 
+    twitter_id: identificador del tweet
+    original_text: texto del tweet original	
+    slug: nombre del político que twitteó	
+    party_slug: partido del político que twitteó	
+    original_name: string original que se va a sustituir - nombre de un politico
+    toxic_original: toxicidad “toxic” del tweet original	
+    very_toxic_original: toxicidad “very toxic” del tweet original		
+    most_toxic_leader: string que corresponde con un nombre de un politico o un arroba que, al sustituir original_name por él en el tweet, da más toxicidad “toxic” 	
+    most_toxic_leader_toxicity: toxicidad “toxic” que da el tweet modificado cambiando original_name por most_toxic_leader
+    most_verytoxic_leader:  string que corresponde con un nombre de un politico o un arroba que, al sustituir original_name por él en el tweet, da más toxicidad “very toxic” 	
+    most_verytoxic_leader__toxicity:  toxicidad “very toxic” que da el tweet modificado cambiando original_name por most_toxic_leader
+    LIDER_TOXIC:  toxicidad “toxic” que da el tweet modificado cambiando original_name por la palabra “lider”	
+    LIDER_verytoxic: toxicidad “very toxic” que da el tweet modificado cambiando original_name por la palabra “lider”	
+    
 ## tweet_mods_fascism_communism.csv
 
     twitter_id: identificador del tweet
