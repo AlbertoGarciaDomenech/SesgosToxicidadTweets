@@ -11,7 +11,7 @@ Estos archivos csv se generaron modificando los tweets proporcionados por Newtra
     most_toxic_party: string que corresponde con un partido que, al sustituir [PARTY] por él en el tweet, da más toxicidad “toxic” 	
     most_toxic_party_toxicity: toxicidad “toxic” que da el tweet modificado cambiando [PARTY] por most_toxic_party
     most_verytoxic_party:  string que corresponde con un partido que, al sustituir [PARTY] por él en el tweet, da más toxicidad “very toxic” 		
-    most_verytoxic_party_toxicity:  toxicidad “very toxic” que da el tweet modificado cambiando [PARTY] por most_toxic_party
+    most_verytoxic_party_toxicity:  toxicidad “very toxic” que da el tweet modificado cambiando [PARTY] por most_verytoxic_party
     PARTIDO_toxic:  toxicidad “toxic” que da el tweet modificado cambiando [PARTY] por la palabra “partido”	
     PARTIDO_verytoxic: toxicidad “very toxic” que da el tweet modificado cambiando [PARTY] por la palabra “partido”	
 
@@ -56,3 +56,4 @@ Estos archivos csv se generaron modificando los tweets proporcionados por Newtra
     very_toxic_noaccent: toxicidad “very toxic” del tweet modificado sin tildes
     most_toxic_grammar: ortografía (con tildes/sin tildes) con la que el tweet tiene más toxicidad “toxic”
     most_verytoxic_grammar: ortografía (con tildes/sin tildes) con la que el tweet tiene más toxicidad “very toxic”
+## tweets_contradictorios.csv
