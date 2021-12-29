@@ -59,3 +59,33 @@ Estos archivos csv se generaron modificando los tweets proporcionados por Newtra
 ## tweets_contradictorios.csv
 
     tweet: Tweet con contenido tanto tóxico como no tóxico, para comprobar el comportamiento del modelo ante estos casos.
+
+## tweet_mods_emojis.csv
+
+    twitter_id: identificador del tweet
+    original_text: texto del tweet original	
+    slug: nombre del político que twitteó	
+    party_slug: partido del político que twitteó	
+    emojis: emojis que aparecen en el tweet	
+    toxicity: toxicidad “toxic” del tweet original	
+    toxicity_without_emoji: toxicidad “toxic” del tweet sin los emojis		
+    sev_toxicity: toxicidad “very toxic” del tweet original	
+    sev_toxicity_without_emoji: toxicidad “very toxic” del tweet sin los emojis
+   
+## tweet_mods_emojis2.csv
+
+    emoji: identificador del emoji
+    count:  numero de veces que aparece el emoji	
+    total_toxicity: sumatorio de toxicidad "toxic" del emoji	
+    mean: media de toxicidad "toxic"
+    most_toxic: tweet con mayor toxicidad "toxic" donde aparece el emoji
+    most_toxic_text: texto del tweet con mayor toxicidad "toxic"
+    
+## tweet_mods_emojis_replace.csv
+
+    previous_emoji: identificador del emoji original
+    original_text: texto del tweet original	
+    toxicity: toxicidad "toxic" del tweet original	
+    emplaced_emoji: identificador del nuevo emoji	
+    text_replaced: texto del tweet con el nuevo emoji	
+    toxicity_replaced: toxicidad “toxic” del tweet con el nuevo emoji	
