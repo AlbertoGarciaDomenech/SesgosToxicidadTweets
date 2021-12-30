@@ -58,7 +58,8 @@ Estos archivos csv se generaron modificando los tweets proporcionados por Newtra
     most_verytoxic_grammar: ortografía (con tildes/sin tildes) con la que el tweet tiene más toxicidad “very toxic”
 ## tweets_contradictorios.csv
 
-    tweet: Tweet con contenido tanto tóxico como no tóxico, para comprobar el comportamiento del modelo ante estos casos.
+    tweet: Tweet con contenido tanto tóxico como no tóxico, para comprobar el comportamiento del modelo ante estos casos
+    manual_toxicity: Valor manual asignado al tweet (1- tóxico; 0 - no tóxico)
 
 ## tweet_mods_emojis.csv
 
