@@ -1,5 +1,5 @@
 # Guía csv
-Estos archivos csv se generaron modificando los tweets proporcionados por Newtral y viendo su toxicidad "toxic" y "very toxic" según su modelo "finetuned-toxic-political-tweets-es"
+Estos archivos csv se generaron modificando los tweets proporcionados por Newtral u obteniendo tweets nuevos, y viendo su toxicidad "toxic" y "very toxic" según su modelo "finetuned-toxic-political-tweets-es"
 ## tweet_mods_political_parties_[PARTY]_.csv
     twitter_id: identificador del tweet
     original_text: texto del tweet original	
